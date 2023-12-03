@@ -1,0 +1,7 @@
+# ChromaDB client Sample Tools Collection
+
+ようこそ、ChromaDB client sample tools レポジトリへ
+
+このレポジトリは、ChromaDBを使用するためのサンプルクライアントツールのコレクションです。
+このレポジトリは、初心者がLivedoorコーパスをChromaDBに登録し、検索テストを行うためのChromaDBクライアントサンプルツールのコレクションを管理しています。各プログラムは、ChromaDBがローカルPCのポート80で動作しており、TokenAuthServerProviderでChromaDBが操作されていることを前提としています。
+また、ChromaDBに登録するコンテンツはLivedoorニュースコーパスのテキストフォーマットを前提にしているため、動作にはLivedoorニュースコーパスが必要です。
