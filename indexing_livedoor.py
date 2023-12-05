@@ -21,7 +21,8 @@ import numpy as np
 
 
 #directory = './livedoorニュースコーパス/ldcc-20140209/text/small/'
-directory = './livedoorニュースコーパス/ldcc-20140209/text/movie-enter/'
+#directory = './livedoorニュースコーパス/ldcc-20140209/text/movie-enter/'
+directory = './livedoorニュースコーパス/ldcc-20140209/text/it-life-hack/'
 
 #loader = DirectoryLoader(directory, glob="movie-enter*.txt",show_progress=True, encoding='utf8')
 #loader = TextLoader(directory+"movie-enter-5840081.txt", encoding='utf8')
@@ -30,7 +31,8 @@ directory = './livedoorニュースコーパス/ldcc-20140209/text/movie-enter/'
 # reffer to https://python.langchain.com/docs/modules/data_connection/document_loaders/file_directory
 # C.Auto detect encodings
 text_loader_kwargs={'autodetect_encoding': True}
-loader = DirectoryLoader(directory, glob="movie-enter*.txt", show_progress=True, loader_cls=TextLoader, loader_kwargs=text_loader_kwargs)
+#loader = DirectoryLoader(directory, glob="movie-enter*.txt", show_progress=True, loader_cls=TextLoader, loader_kwargs=text_loader_kwargs)
+loader = DirectoryLoader(directory, glob="it-life-hack*.txt", show_progress=True, loader_cls=TextLoader, loader_kwargs=text_loader_kwargs)
 
 start = time.time()
 documents = loader.load()
