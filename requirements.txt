@@ -3,3 +3,5 @@ langchain==0.0.334
 unstructured==0.10.30
 torch==2.0.0
 sentence-transformers==2.2.2
+requests==2.31.0
+beautifulsoup4==4.12.2
